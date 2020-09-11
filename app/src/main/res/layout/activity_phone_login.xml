@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhoneLoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bgsignup"
+        android:scaleType="centerCrop">
+
+    </ImageView>
+
+    <LinearLayout
+        android:id="@+id/form_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Simpan momenmu"
+            android:textSize="26dp"
+            android:textColor="@color/biru">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="bersama Memoria"
+            android:textSize="26dp"
+            android:textColor="@color/biru">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/name_input"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama"
+            android:inputType="text"
+            android:textSize="16sp"
+            android:textColor="#707070"
+            android:textColorHint="#707070">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/email_input"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textSize="16sp"
+            android:textColor="#707070"
+            android:textColorHint="#707070">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/phone_number_input"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nomor telepon"
+            android:inputType="phone"
+            android:textSize="16sp"
+            android:textColor="#707070"
+            android:textColorHint="#707070">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/send_ver_code_button"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daftar"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:background="@drawable/rounded_rect_blue">
+
+        </Button>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dengan mendaftar, anda dianggap telah menyetujui"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:textSize="10sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Persyaratan Layanan"
+            android:textAlignment="center"
+            android:textColor="@color/biru"
+            android:layout_gravity="center_horizontal"
+            android:textSize="10sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/form_verification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="50dp"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hampir selesai . . ."
+            android:textSize="26dp"
+            android:textColor="@color/biru">
+
+        </TextView>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Kami telah mengirimkan kode verifikasi. Cek pesan masuk dan masukan 6 digit kode yang ada.">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/verification_code_input"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="_  _  _  _  _  _"
+            android:textAlignment="center"
+            android:inputType="number"
+            android:textSize="40sp"
+            android:textStyle="bold">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/verify_button"
+            android:layout_marginTop="70dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lanjutkan"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:background="@drawable/rounded_rect_blue">
+
+        </Button>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kirim ulang kode otomatis"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:textSize="10sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/cdl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:textAlignment="center"
+            android:textColor="@color/biru"
+            android:layout_gravity="center_horizontal"
+            android:textSize="10sp">
+
+
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

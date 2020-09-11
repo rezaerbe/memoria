@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Memoria</string>
+
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_home">Menu</string>
+    <string name="title_dashboard">Chat</string>
+    <string name="title_notifications">Memories</string>
+    <string name="title_profile">Profile</string>
+
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="start">Got It</string>
+
+    <string name="slide_1_title">Hello Moments!</string>
+    <string name="slide_1_desc">The easiest way to order photo or video to save your moment!</string>
+
+    <string name="slide_2_title">Photo Book</string>
+    <string name="slide_2_desc">Book photographer for your family and friends!</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string-array name="universitas">
+        <item>University</item>
+        <item>Institut Pertanian Bogor</item>
+        <item>Universitas Indonesia</item>
+    </string-array>
+
+    <string-array name="city">
+        <item>City</item>
+        <item>Jakarta</item>
+        <item>Bogor</item>
+        <item>Depok</item>
+        <item>Tanggerang Selatan</item>
+        <item>Bekasi</item>
+    </string-array>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F6FB"
+    tools:context=".TermActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="8dp"
+        android:background="@android:color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Syarat dan Ketentuan"
+            android:textSize="24sp"
+            android:textColor="@color/biru"
+            android:fontFamily="@font/medium"
+            android:layout_margin="16dp">
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bar">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="TERMS OF USE"
+            android:fontFamily="@font/medium"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/black">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="TERMS OF USE BELOW SHOULD BE READED BEFORE USING THIS APPLICATION."
+            android:fontFamily="@font/medium"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@android:color/black">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="THE USE OF THIS APPLICATION SHOWS ACCEPTANCE AND COMPLIANCE TO THESE TERMS AND CONDITIONS."
+            android:fontFamily="@font/medium"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@android:color/black">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Welcome to TIXid Applications owned and maintained by PT Nusantara Elang Sejahtera, a company established and subject to the laws of the Republic of Indonesia (hereinafter referred to as TIX or Application interchangeably)."
+            android:textSize="10sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@android:color/black">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="The following terms and conditions (Terms of Use) apply to access, install and or use the Application. References to the Application are considered to include derivatives thereof, including but not necessarily limited to mobile web apps and applications. You acknowledge that you have read, understood and agreed to be bound by the Terms of Use set out below and other terms and conditions in connection with the Application, including but not limited to confidentiality and FAQ, which form an integral part of these Terms of Use. You must be at least seventeen (17) years of age to use the Application."
+            android:textSize="10sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@android:color/black">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Please note that we may modify, add and remove these Terms of Use from time to time without prior notice. Terms of Use must be read periodically. By continuing to use the Application after such changes to the Visitor Terms of Use, the registered user or user (You or User) agrees and accepts the change. If you use one of our other services, your use is based on compliance and acceptance of the terms and conditions applicable to the service."
+            android:textSize="10sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@android:color/black">
+
+        </TextView>
+
+    </LinearLayout>
+
+</RelativeLayout>
