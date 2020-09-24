@@ -1,6 +1,6 @@
-## MEM Fakultas Peternakan IPM
+## Memoria
 
-MEM FAPET IPM is mobile application that can read a data about student college, and lecturer. Then, this application can be used for looking around faculty using map image. Also this application provide feature about event that took place in faculty. In this application, also have a feature to report something is not good in faculty. Finally, this application provide faculty social media which are instagram and youtube.
+Memoria is mobile application to hire a professional photographer to capture beautiful memories from a pre-graduation, graduation, wedding, and event.
 
 ## Tools
 
