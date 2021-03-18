@@ -14,15 +14,10 @@ Memoria is mobile application to hire a professional photographer to capture bea
 * Navigation
 * Google Play Service Auth
 * Firebase Auth
-* Firebase Database
 * Auto Image Slider
 * Glide
 * Circle Image View
 * Spin Kit
-* Retrofit
-* RxJava
-* RxAndroid
-* OkHttp
 
 ## Screenshots
 
